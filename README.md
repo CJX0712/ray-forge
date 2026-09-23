@@ -1,5 +1,12 @@
 # RayForge · 光线锻造炉
 
+<p align="center">
+  <a href="https://github.com/CJX0712/ray-forge/actions/workflows/ci.yml"><img src="https://github.com/CJX0712/ray-forge/actions/workflows/ci.yml/badge.svg" alt="ci"></a>
+  <a href="https://github.com/CJX0712/ray-forge/releases"><img src="https://img.shields.io/github/v/release/CJX0712/ray-forge?sort=semver" alt="release"></a>
+  <a href="https://github.com/CJX0712/ray-forge/blob/main/LICENSE"><img src="https://img.shields.io/github/license/CJX0712/ray-forge" alt="license"></a>
+  <img src="https://img.shields.io/badge/author-%E6%99%A8%E6%98%9F-1f6feb" alt="author">
+</p>
+
 单文件离线光线追踪器。3 个漫反射球体 + 灰色地面 + 1 个方向光（含阴影），逐像素投射光线求交、Lambert 漫反射着色。相机沿 Y 轴环绕旋转，可实时观看。
 
 > 没有 WebGL、没有外部库——纯 JavaScript 算每个像素的颜色。
